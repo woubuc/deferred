@@ -1,7 +1,7 @@
 {
   "name": "@woubuc/deferred",
   "description": "A Promise that can be resolved externally",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/Deferred.js",
   "types": "dist/Deferred.d.ts",
