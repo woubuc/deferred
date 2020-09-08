@@ -1,0 +1,38 @@
+{
+  "name": "@woubuc/deferred",
+  "description": "A Promise that can be resolved externally",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist/Deferred.js",
+  "types": "dist/Deferred.d.ts",
+  "author": "Wouter Buckens <wou.buc@gmail.com>",
+  "homepage": "https://github.com/woubuc/deferred/blob/master/README.md",
+  "repository": "github:woubuc/deferred",
+  "bugs": "https://github.com/woubuc/deferred/issues",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [
+    "promise",
+    "promises",
+    "deferred",
+    "defer",
+    "external",
+    "outside",
+    "reject",
+    "resolve",
+    "async",
+    "await"
+  ]
+}
