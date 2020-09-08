@@ -1,6 +1,11 @@
 # Deferred
 A Promise that can be resolved externally
 
+[![npm](https://img.shields.io/npm/v/@woubuc/deferred)](https://www.npmjs.com/package/@woubuc/deferred)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-green)](https://github.com/woubuc/deferred/blob/master/LICENSE.txt)
+[![install size](https://packagephobia.com/badge?p=@woubuc/deferred)](https://packagephobia.com/result?p=@woubuc/deferred)
+![Typescript type definitions included](https://img.shields.io/npm/types/@woubuc/deferred)
+
 ## Installation
 ```
 yarn add @woubuc/deferred
