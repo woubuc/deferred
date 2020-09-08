@@ -1,8 +1,8 @@
 /** Promise resolve() callback */
-type Resolver<T> = (value ? : T | PromiseLike<T>) => void;
+type Resolver<T> = (value : T | PromiseLike<T>) => void;
 
 /** Promise reject() callback */
-type Rejecter = (reason ? : any) => void;
+type Rejecter = (reason ?: any) => void;
 
 /**
  * Deferred promise that can be resolved or rejected externally
@@ -43,7 +43,7 @@ export default class Deferred<T> extends Promise<T> {
 	/**
 	 * Resolves the Deferred promise
 	 */
-	public resolve(value ?: T) : void {
+	public resolve(value : T) : void {
 		this.resolver(value);
 	}
 
