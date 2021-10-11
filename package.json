@@ -3,7 +3,8 @@
   "description": "A Promise that can be resolved externally",
   "version": "1.1.0",
   "license": "MIT",
-  "main": "dist/Deferred.js",
+  "type": "module",
+  "exports": "./dist/Deferred.js",
   "types": "dist/Deferred.d.ts",
   "author": "Wouter Buckens <wou.buc@gmail.com>",
   "homepage": "https://github.com/woubuc/deferred/blob/master/README.md",
@@ -19,6 +20,9 @@
     "jest": "^26.4.2",
     "ts-jest": "^26.3.0",
     "typescript": "^4.0.2"
+  },
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
   "files": [
     "dist/**/*"
