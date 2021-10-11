@@ -3,6 +3,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "lib": ["ESNext"],
+    "moduleResolution": "Node",
 
     "rootDir": "./src",
     "outDir": "./dist",
@@ -22,8 +23,5 @@
 
     "forceConsistentCasingInFileNames": true
   },
-  "exclude": [
-    "src/Deferred.spec.ts",
-    "dist/**/*"
-  ]
+  "exclude": ["dist/**/*"]
 }

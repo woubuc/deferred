@@ -1,3 +1,5 @@
+import { jest } from '@jest/globals';
+
 import Deferred from './Deferred';
 
 describe('promise callback', () => {
